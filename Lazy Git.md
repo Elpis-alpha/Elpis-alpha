@@ -1,3 +1,13 @@
+Normal push:
+```PowerShell
+lazygit "Fixed login bug" 
+```
+
+Add and commit only:
+```PowerShell
+lazygit "Fixed login bug" -NP
+```
+
 Test with:
 ```PowerShell
 Test-Path $PROFILE
