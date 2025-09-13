@@ -8,6 +8,12 @@ Add and commit only:
 lazygit "Fixed login bug" -NP
 ```
 
+Might wanna add:
+```bash
+# Always keep LF in repo, checkout CRLF on Windows
+git config --global core.autocrlf true
+```
+
 Test with:
 ```PowerShell
 Test-Path $PROFILE
